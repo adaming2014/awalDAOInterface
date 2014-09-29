@@ -10,17 +10,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IModelDao {
-
-    List<Modele> getAll();
-
-    boolean create(Modele address);
-
-    boolean update(Modele address);
-
-    boolean delete(Modele address);
-
-    boolean delete(int id);
-
-    Modele getById(int id);
+public interface IModelDao extends IDao<Modele>{
 }

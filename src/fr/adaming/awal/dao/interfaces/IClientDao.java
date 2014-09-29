@@ -12,16 +12,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IClientDao {
-    List<Client> getAll();
-    
-    boolean create(Client address);
-    
-    boolean update(Client address);
-    
-    boolean delete(Client address);
-    
-    boolean delete(int id);
-    
-    Client getById(int id);    
+public interface IClientDao extends IDao<Client>{ 
 }

@@ -12,17 +12,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IFirmDao {
-    
-    List<Firm> getAll();
-
-    boolean create(Firm address);
-
-    boolean update(Firm address);
-
-    boolean delete(Firm address);
-
-    boolean delete(int id);
-
-    Firm getById(int id);    
+public interface IFirmDao extends IDao<Firm>{  
 }

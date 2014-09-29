@@ -13,17 +13,6 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IModelPackageDao {
+public interface IModelPackageDao extends IDao<Modelpackage>{
 
-    List<Modelpackage> getAll();
-
-    boolean create(Modelpackage address);
-
-    boolean update(Modelpackage address);
-
-    boolean delete(Modelpackage address);
-
-    boolean delete(int id);
-
-    Modelpackage getById(int id);
 }

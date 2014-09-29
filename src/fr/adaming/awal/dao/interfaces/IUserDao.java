@@ -12,16 +12,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IUserDao {
-    List<User> getAll();
-    
-    boolean create(User address);
-    
-    boolean update(User address);
-    
-    boolean delete(User address);
-    
-    boolean delete(int id);
-    
-    User getById(int id);       
+public interface IUserDao extends IDao<User>{  
 }

@@ -12,16 +12,6 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IAdminDao {
-    List<Admin> getAll();
-    
-    boolean create(Admin address);
-    
-    boolean update(Admin address);
-    
-    boolean delete(Admin address);
-    
-    boolean delete(int id);
-    
-    Admin getById(int id);    
+public interface IAdminDao extends IDao<Admin>{
+ 
 }

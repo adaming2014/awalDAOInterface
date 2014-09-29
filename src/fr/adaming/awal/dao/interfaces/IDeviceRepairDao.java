@@ -12,17 +12,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IDeviceRepairDao {
-
-    List<Devicerepair> getAll();
-
-    boolean create(Devicerepair address);
-
-    boolean update(Devicerepair address);
-
-    boolean delete(Devicerepair address);
-
-    boolean delete(int id);
-
-    Devicerepair getById(int id);
+public interface IDeviceRepairDao extends IDao<Devicerepair>{
 }

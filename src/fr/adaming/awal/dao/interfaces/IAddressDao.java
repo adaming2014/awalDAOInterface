@@ -12,16 +12,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IAddressDao {
-    List<Address> getAll();
-    
-    boolean create(Address address);
-    
-    boolean update(Address address);
-    
-    boolean delete(Address address);
-    
-    boolean delete(int id);
-    
-    Address getById(int id);
+public interface IAddressDao extends IDao<Address>{
 }

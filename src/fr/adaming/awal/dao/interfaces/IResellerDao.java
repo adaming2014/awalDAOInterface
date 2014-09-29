@@ -12,16 +12,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IResellerDao {
-    List<Reseller> getAll();
-    
-    boolean create(Reseller address);
-    
-    boolean update(Reseller address);
-    
-    boolean delete(Reseller address);
-    
-    boolean delete(int id);
-    
-    Reseller getById(int id);        
+public interface IResellerDao extends IDao<Reseller>{       
 }

@@ -12,16 +12,5 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IDeviceDao {
-    List<Device> getAll();
-    
-    boolean create(Device address);
-    
-    boolean update(Device address);
-    
-    boolean delete(Device address);
-    
-    boolean delete(int id);
-    
-    Device getById(int id);       
+public interface IDeviceDao extends IDao<Device>{    
 }

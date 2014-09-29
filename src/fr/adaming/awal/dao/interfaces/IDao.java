@@ -5,13 +5,23 @@
  */
 package fr.adaming.awal.dao.interfaces;
 
-import fr.adaming.awal.entity.Deviceinsurance;
 import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IDeviceInsuranceDao extends IDao<Deviceinsurance>{
-          
+public interface IDao<T> {
+
+    List<T> getAll();
+
+    boolean create(T address);
+
+    boolean update(T address);
+
+    boolean delete(T address);
+
+    boolean delete(int id);
+
+    T getById(int id);
 }
