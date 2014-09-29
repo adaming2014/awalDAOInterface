@@ -9,6 +9,6 @@ package fr.adaming.awal.dao.interfaces;
  *
  * @author INTI0217
  */
-public class IRepairerDao {
+public interface IRepairerDao {
     
 }
