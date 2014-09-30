@@ -6,11 +6,10 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Firm;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IFirmDao extends IDao<Firm>{  
+public interface IFirmDao extends IDao<Firm> {
 }

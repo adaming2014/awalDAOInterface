@@ -6,12 +6,10 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Admin;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IAdminDao extends IDao<Admin>{
- 
+public interface IAdminDao extends IDao<Admin> {
 }

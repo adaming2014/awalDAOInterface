@@ -6,11 +6,10 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Address;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IAddressDao extends IDao<Address>{
+public interface IAddressDao extends IDao<Address> {
 }

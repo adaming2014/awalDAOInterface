@@ -4,11 +4,12 @@
  * and open the template in the editor.
  */
 package fr.adaming.awal.dao.interfaces;
+
 import fr.adaming.awal.entity.Modele;
-import java.util.List;
+
 /**
  *
  * @author INTI0217
  */
-public interface IModelDao extends IDao<Modele>{
+public interface IModelDao extends IDao<Modele> {
 }

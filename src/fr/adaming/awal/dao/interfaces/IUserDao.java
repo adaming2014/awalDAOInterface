@@ -6,11 +6,10 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.User;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IUserDao extends IDao<User>{  
+public interface IUserDao extends IDao<User> {
 }

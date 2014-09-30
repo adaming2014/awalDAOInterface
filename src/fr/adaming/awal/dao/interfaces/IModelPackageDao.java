@@ -5,14 +5,12 @@
  */
 package fr.adaming.awal.dao.interfaces;
 
-import fr.adaming.awal.entity.Modele;
 import fr.adaming.awal.entity.Modelpackage;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IModelPackageDao extends IDao<Modelpackage>{
+public interface IModelPackageDao extends IDao<Modelpackage> {
 
 }

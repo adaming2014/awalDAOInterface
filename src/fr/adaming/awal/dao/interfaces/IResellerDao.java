@@ -6,11 +6,10 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Reseller;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IResellerDao extends IDao<Reseller>{       
+public interface IResellerDao extends IDao<Reseller> {
 }

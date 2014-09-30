@@ -6,11 +6,10 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Device;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IDeviceDao extends IDao<Device>{    
+public interface IDeviceDao extends IDao<Device> {
 }

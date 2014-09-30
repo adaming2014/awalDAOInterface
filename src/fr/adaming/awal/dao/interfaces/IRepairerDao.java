@@ -6,11 +6,10 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Repairer;
-import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IRepairerDao extends IDao<Repairer>{  
+public interface IRepairerDao extends IDao<Repairer> {
 }
