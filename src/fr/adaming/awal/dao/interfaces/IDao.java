@@ -10,6 +10,7 @@ import java.util.List;
 /**
  *
  * @author INTI0217
+ * @param <T>
  */
 public interface IDao<T> {
 
