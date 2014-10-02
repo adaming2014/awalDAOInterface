@@ -5,11 +5,14 @@
  */
 package fr.adaming.awal.dao.interfaces;
 
+import fr.adaming.awal.entity.Client;
 import fr.adaming.awal.entity.Device;
+import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
 public interface IDeviceDao extends IDao<Device> {
+    List<Device> getDevicesByClientId(Client client);
 }
