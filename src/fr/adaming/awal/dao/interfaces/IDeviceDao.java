@@ -14,5 +14,5 @@ import java.util.List;
  * @author INTI0217
  */
 public interface IDeviceDao extends IDao<Device> {
-    List<Device> getDevicesByClientId(Client client);
+    List<Device> getDevicesByClient(Client client);
 }
