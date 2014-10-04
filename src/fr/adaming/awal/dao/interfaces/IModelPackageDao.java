@@ -14,5 +14,5 @@ import java.util.List;
  * @author INTI0217
  */
 public interface IModelPackageDao extends IDao<Modelpackage> {
-    public List<Modelpackage> getPackageByModel(Modele model);
+    public List<Modelpackage> getPackagesByModel(Modele model);
 }
