@@ -5,7 +5,7 @@
  */
 package fr.adaming.awal.dao.interfaces;
 
-import fr.adaming.awal.entity.Device;
+import fr.adaming.awal.entity.Client;
 import fr.adaming.awal.entity.Deviceinsurance;
 import java.util.List;
 
@@ -14,5 +14,5 @@ import java.util.List;
  * @author INTI0217
  */
 public interface IDeviceInsuranceDao extends IDao<Deviceinsurance> {
-    List<Deviceinsurance> getDevicesInsuranceByClient(Device device);
+    List<Deviceinsurance> getDevicesInsuranceByClient(Client client);
 }
