@@ -13,6 +13,7 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IDeviceRepairDao extends IDao<Devicerepair>{
-    List<Devicerepair> getDevicesRepairByClient(Client client);
+public interface IDeviceRepairDao extends IDao<Devicerepair, Integer> {
+
+    List<Devicerepair> getDevicesRepairByClient(final Client client);
 }

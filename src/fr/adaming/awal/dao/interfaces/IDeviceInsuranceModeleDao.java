@@ -13,6 +13,7 @@ import java.util.List;
  *
  * @author INTI0227
  */
-public interface IDeviceInsuranceModeleDao extends IDao<Deviceinsurancemodel>{
+public interface IDeviceInsuranceModeleDao extends IDao<Deviceinsurancemodel, Integer> {
+
     List<Deviceinsurancemodel> getDeviceInsuranceModelsByModel(Modele modele);
 }

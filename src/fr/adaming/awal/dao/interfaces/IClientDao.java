@@ -11,6 +11,7 @@ import fr.adaming.awal.entity.Client;
  *
  * @author INTI0217
  */
-public interface IClientDao extends IDao<Client> {
-    Client getClientByMail(String mail);
+public interface IClientDao extends IDao<Client, Integer> {
+
+    Client getClientByMail(final String mail);
 }

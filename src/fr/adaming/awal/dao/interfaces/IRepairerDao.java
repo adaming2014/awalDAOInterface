@@ -11,5 +11,5 @@ import fr.adaming.awal.entity.Repairer;
  *
  * @author INTI0217
  */
-public interface IRepairerDao extends IDao<Repairer> {
+public interface IRepairerDao extends IDao<Repairer, Integer> {
 }

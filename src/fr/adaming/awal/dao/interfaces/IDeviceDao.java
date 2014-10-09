@@ -7,13 +7,13 @@ package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Client;
 import fr.adaming.awal.entity.Device;
-import fr.adaming.awal.entity.Modele;
 import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IDeviceDao extends IDao<Device> {
-    List<Device> getDevicesByClient(Client client);
+public interface IDeviceDao extends IDao<Device, Integer> {
+
+    List<Device> getDevicesByClient(final Client client);
 }

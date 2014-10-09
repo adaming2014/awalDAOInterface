@@ -11,5 +11,5 @@ import fr.adaming.awal.entity.Address;
  *
  * @author INTI0217
  */
-public interface IAddressDao extends IDao<Address> {
+public interface IAddressDao extends IDao<Address, Integer> {
 }

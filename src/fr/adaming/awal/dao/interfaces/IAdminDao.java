@@ -11,5 +11,5 @@ import fr.adaming.awal.entity.Admin;
  *
  * @author INTI0217
  */
-public interface IAdminDao extends IDao<Admin> {
+public interface IAdminDao extends IDao<Admin, Integer> {
 }

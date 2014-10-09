@@ -13,6 +13,7 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IModelPackageDao extends IDao<Modelpackage> {
-    public List<Modelpackage> getPackagesByModel(Modele model);
+public interface IModelPackageDao extends IDao<Modelpackage, Integer> {
+
+    public List<Modelpackage> getPackagesByModel(final Modele model);
 }

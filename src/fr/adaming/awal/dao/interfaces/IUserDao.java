@@ -11,7 +11,7 @@ import fr.adaming.awal.entity.User;
  *
  * @author INTI0217
  */
-public interface IUserDao extends IDao<User> {
+public interface IUserDao extends IDao<User, Integer> {
 
     User getByEmail(final String email);
 }

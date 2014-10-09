@@ -11,5 +11,5 @@ import fr.adaming.awal.entity.Modele;
  *
  * @author INTI0217
  */
-public interface IModelDao extends IDao<Modele> {
+public interface IModelDao extends IDao<Modele, Integer> {
 }

@@ -5,24 +5,25 @@
  */
 package fr.adaming.awal.dao.interfaces;
 
+import fr.adaming.awal.entity.interfaces.IEntity;
+import java.io.Serializable;
 import java.util.List;
 
 /**
  *
  * @author INTI0217
  * @param <T>
+ * @param <I>
  */
-public interface IDao<T> {
+public interface IDao<T extends IEntity<I>, I extends Serializable> {
 
     List<T> getAll();
 
-    boolean create(T address);
+    T getById(final I id);
 
-    boolean update(T address);
+    List<T> getByExample(final T example);
 
-    boolean delete(T address);
+    T makePersistent(final T entity);
 
-    boolean delete(int id);
-
-    T getById(int id);
+    void makeTransient(final T entity);
 }

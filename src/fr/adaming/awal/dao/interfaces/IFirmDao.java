@@ -11,5 +11,5 @@ import fr.adaming.awal.entity.Firm;
  *
  * @author INTI0217
  */
-public interface IFirmDao extends IDao<Firm> {
+public interface IFirmDao extends IDao<Firm, Integer> {
 }
