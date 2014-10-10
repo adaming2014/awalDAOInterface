@@ -9,6 +9,7 @@ import fr.adaming.awal.entity.Client;
 import fr.adaming.awal.entity.Device;
 import fr.adaming.awal.entity.Devicerepair;
 import fr.adaming.awal.entity.Modelpackage;
+import fr.adaming.awal.entity.Repairer;
 import java.util.List;
 
 /**
@@ -18,6 +19,8 @@ import java.util.List;
 public interface IDeviceRepairDao extends IDao<Devicerepair, Integer> {
 
     public List<Devicerepair> getDevicesRepairByClient(final Client client);
+
+    public List<Devicerepair> getDevicesRepairByRepairer(final Repairer repairer);
 
     public Devicerepair getByDeviceAndPackage(final Device device, final Modelpackage modelPackage);
 }
