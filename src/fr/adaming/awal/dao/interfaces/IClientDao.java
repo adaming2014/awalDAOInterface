@@ -6,6 +6,8 @@
 package fr.adaming.awal.dao.interfaces;
 
 import fr.adaming.awal.entity.Client;
+import fr.adaming.awal.entity.Firm;
+import java.util.List;
 
 /**
  *
@@ -15,4 +17,5 @@ public interface IClientDao extends IDao<Client, Integer> {
 
     public Client getClientByMail(final String mail);
     public Client getClientByUserId(Integer id);
+    List<Client> getClientsByFirm(Firm firm);
 }
