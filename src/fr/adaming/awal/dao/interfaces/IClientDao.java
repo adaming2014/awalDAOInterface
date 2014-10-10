@@ -13,5 +13,6 @@ import fr.adaming.awal.entity.Client;
  */
 public interface IClientDao extends IDao<Client, Integer> {
 
-    Client getClientByMail(final String mail);
+    public Client getClientByMail(final String mail);
+    public Client getClientByUserId(Integer id);
 }

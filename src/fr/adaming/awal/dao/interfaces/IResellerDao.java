@@ -12,4 +12,5 @@ import fr.adaming.awal.entity.Reseller;
  * @author INTI0217
  */
 public interface IResellerDao extends IDao<Reseller, Integer> {
+    public Reseller getResellerByUSerId(Integer id);
 }
